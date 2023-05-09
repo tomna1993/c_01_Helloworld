@@ -22,7 +22,7 @@ There are more like the \n character, they are called **escape sequences**:
 
 | Escape sequence 	| Properties 	|
 |-------------------|---------------|
-| \"				| double quote	|
+| \\"				| double quote	|
 | \\				| single backslash |
 | \a				| bell/alert	|
 | \b				| backspace		|

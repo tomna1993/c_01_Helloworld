@@ -41,21 +41,21 @@ The source code uses the cs50 library what you can download [HERE](https://githu
 
 To install the cs50 library follow the steps:
 
-1. Open git bash terminal and change the current working directory to `src`:
+- Open git bash terminal and change the current working directory to `src`:
 
-> cd ./libsc50/src
+  > cd ./libsc50/src
 
-2. Compile the cs50.c source into .o with:
+- Compile the cs50.c source into .o with:
 
-> gcc -c cs50.c -o cs50.o
+  > gcc -c cs50.c -o cs50.o
 
-3. Make the library archive:  
+- Make the library archive:  
 
-> ar rcs libcs50.a cs50.o
+  > ar rcs libcs50.a cs50.o
 
-4. Copy the `libcs50.a` file into your compiler's `lib` directory
+- Copy the `libcs50.a` file into your compiler's `lib` directory
 
-5. Copy the `cs50.h` file into your compiler's `include` directory
+- Copy the `cs50.h` file into your compiler's `include` directory
 
 ## COMPILE AND RUN THE CODE
 
